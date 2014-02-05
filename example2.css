@@ -1,0 +1,44 @@
+/*
+html {
+  height:100%;
+}*/
+
+#main-wrapper {
+  background-image:url('http://making-the-internet.s3.amazonaws.com/css-layouts-paper-texture.png');
+  height:100%;
+}
+
+body {
+  margin:0;
+  height:100%;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  margin:0;
+}
+
+nav {
+  background-color:white;
+  width:30%;
+  position:fixed;
+  margin:1%;
+}
+
+#content {
+  margin-left:32%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img{
+  display:block;
+  margin:0 auto;
+  width:75%;
+  padding:1%;
+}

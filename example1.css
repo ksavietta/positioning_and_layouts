@@ -1,0 +1,22 @@
+body {
+      margin:0;
+}
+
+section {
+  background-color: red;
+  width:500px;
+}
+
+.highlight{
+  background-color: yellow;
+  margin-right: 20px;
+}
+
+#bluebox {
+  background-color: blue;
+  width: 150px;
+  height: 100px;
+  position:fixed;
+  top: 100px;
+  left: 100px;
+}
