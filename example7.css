@@ -6,12 +6,49 @@
 }
 
 #wrapper{
-    width:70%;
+    position:relative;
+    width:900px;
     margin:auto;
-    height:700px;
+    height:1100px;
     background-image:url('http://making-the-internet.s3.amazonaws.com/css-layouts-paper-texture.png');
   }
 
-h1 {
+hgroup {
   text-align: center;
 }
+
+hgroup h1, h6 {
+  margin:10px;
+}
+
+#kitteh-banner {
+  position: relative;
+  width:90%;
+  margin:0 auto;
+  height:200px;
+}
+
+#kitteh-banner img {
+  position:absolute;
+  width:800px;
+  margin:auto;
+}
+
+#kitteh-banner em {
+  position:absolute;
+  font-size: .5em;
+  top:450px;
+  left:525px;
+}
+
+#article-container {
+  margin:10px;
+  margin-top: 30%;
+}
+
+#article-container section {
+  width:45%;
+  margin:0 2.25%;
+  float:left;
+}
+
