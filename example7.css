@@ -1,0 +1,17 @@
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#wrapper{
+    width:70%;
+    margin:auto;
+    height:700px;
+    background-image:url('http://making-the-internet.s3.amazonaws.com/css-layouts-paper-texture.png');
+  }
+
+h1 {
+  text-align: center;
+}
