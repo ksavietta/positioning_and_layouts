@@ -9,15 +9,17 @@
     position:relative;
     width:900px;
     margin:auto;
-    height:1100px;
+    height:1200px;
+    padding:15px;
     background-image:url('http://making-the-internet.s3.amazonaws.com/css-layouts-paper-texture.png');
   }
 
 hgroup {
   text-align: center;
+  margin-bottom: 10px;
 }
 
-hgroup h1, h6 {
+hgroup h1, time {
   margin:10px;
 }
 
@@ -34,11 +36,11 @@ hgroup h1, h6 {
   margin:auto;
 }
 
-#kitteh-banner em {
+#kitteh-banner figcaption {
   position:absolute;
   font-size: .5em;
   top:450px;
-  left:525px;
+  left:500px;
 }
 
 #article-container {
