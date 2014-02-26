@@ -1,0 +1,82 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+}
+
+#wrapper {
+  width:80%;
+  min-width:700px;
+  margin:auto;
+}
+
+header {
+  text-align: center;
+}
+
+header li {
+  display:inline;
+  padding:10px;
+}
+
+nav {
+  background-color: lightblue;
+  padding:10px;
+}
+
+header li a {
+  text-decoration: none;
+  color: navy;
+}
+
+aside {
+  border: 1px solid black;
+  width: 25%;
+  float:left;
+}
+
+aside img {
+  width:100%;
+  padding:5%;
+}
+
+section {
+  border: 1px solid black;
+  width:75%;
+  float:left;
+}
+
+section img {
+  float:right;
+  width:150px;
+}
+
+footer {
+  background-color: lightblue;
+  clear:both;
+  text-align: center;
+  padding:10px;
+}
+
+footer li {
+  display:inline;
+  padding:10px;
+}
+
+footer li a {
+  text-decoration: none;
+}
+
+
+.clearfix {
+  clear:both;
+}
+
+#share {
+  float:right;
+  padding:10px;
+}
